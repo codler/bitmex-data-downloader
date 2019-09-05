@@ -2,8 +2,9 @@
   "name": "bitmex-data-downloader",
   "version": "1.0.1",
   "description": "Download Bitmex price data",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "test": "ts-node test.ts"
   },
   "repository": {

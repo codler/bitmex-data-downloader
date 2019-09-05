@@ -56,3 +56,7 @@ export async function download(userConfig: { path: string, startDate: Date, endD
     await new Promise(done => setTimeout(done, 4000));
   }
 }
+
+export default {
+  download,
+}
